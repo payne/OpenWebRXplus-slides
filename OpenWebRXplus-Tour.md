@@ -31,17 +31,17 @@ style: |
     margin: 0 auto;
   }
   table {
-    background-color: transparent;
+    background-color: black;
   }
   th {
-    background-color: transparent;
+    background-color: black;
     border-bottom: 2px solid #00d4ff;
   }
   td {
-    background-color: transparent;
+    background-color: black;
   }
   tr {
-    background-color: transparent;
+    background-color: black;
   }
   tr:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.05);
