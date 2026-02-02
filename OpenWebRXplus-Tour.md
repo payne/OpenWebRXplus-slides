@@ -30,6 +30,22 @@ style: |
     display: block;
     margin: 0 auto;
   }
+  table {
+    background-color: transparent;
+  }
+  th {
+    background-color: transparent;
+    border-bottom: 2px solid #00d4ff;
+  }
+  td {
+    background-color: transparent;
+  }
+  tr {
+    background-color: transparent;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
 ---
 
 <!-- _class: title -->

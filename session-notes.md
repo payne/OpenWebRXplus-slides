@@ -130,6 +130,19 @@ User must enable GitHub Pages in repository settings:
 
 ---
 
+## Interaction 6: Table Styling Fix
+
+**User Request:**
+> The tables on slides 3, 6, 7, 8, 19, 23, 25 are hard to read. Make the background color of the table transparent (so it appears black like the slide).
+
+**Claude Actions:**
+- Updated MARP style block in `OpenWebRXplus-Tour.md` to add CSS for tables:
+  - `table`, `th`, `td`, `tr` all set to `background-color: transparent`
+  - Header row (`th`) given a subtle cyan bottom border for definition
+  - Alternating rows given very subtle highlight (`rgba(255, 255, 255, 0.05)`)
+
+---
+
 ## Session Log Instructions
 
 **Standing instruction:** This file should be updated with each new interaction between the user and Claude when working in the `/Users/mpayne/git/talks/OpenWebRXplus/` directory.
