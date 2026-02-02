@@ -130,6 +130,20 @@ User must enable GitHub Pages in repository settings:
 
 ---
 
+## Interaction 7: Add Build Info to Title Slide
+
+**User Request:**
+> On slide 1 please include:
+> 1. The date and time (in Omaha, NE USA central time) that the slides were built.
+> 2. URL https://github.com/payne/OpenWebRXplus-slides
+
+**Claude Actions:**
+- Added placeholder `BUILD_TIMESTAMP` and GitHub URL to slide 1 in `OpenWebRXplus-Tour.md`
+- Updated GitHub Actions workflow to replace the placeholder with actual Central Time timestamp during build
+- Uses `TZ='America/Chicago'` for proper Central Time zone
+
+---
+
 ## Interaction 6: Table Styling Fix
 
 **User Request:**

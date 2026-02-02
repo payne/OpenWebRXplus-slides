@@ -56,6 +56,9 @@ style: |
 
 **Your Browser is Now a Radio Receiver**
 
+Built: BUILD_TIMESTAMP
+https://github.com/payne/OpenWebRXplus-slides
+
 ---
 
 # What is OpenWebRX+?
