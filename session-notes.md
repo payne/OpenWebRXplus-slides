@@ -85,6 +85,7 @@
 |------|--------|-------------|
 | `OpenWebRXplus-Tour.md` | Created, then updated | MARP presentation (34 slides) |
 | `session-notes.md` | Created | This session log |
+| `.github/workflows/marp-to-pages.yml` | Created | GitHub Action for MARP build and Pages deploy |
 
 ---
 
@@ -106,6 +107,26 @@
 **Claude Actions:**
 - Acknowledged the ongoing instruction
 - Will append new interactions to this file for each session in this folder
+
+---
+
+## Interaction 5: GitHub Actions and Pages Setup
+
+**User Request:**
+> I've pushed the folder to a github repo. Setup this repo to use a github action to build HTML automatically each time I push a change. And setup github pages on the repo so people can view the slides in their web browser.
+
+**Claude Actions:**
+- Created `.github/workflows/marp-to-pages.yml` - GitHub Action workflow that:
+  - Triggers on push to main/master branch
+  - Installs Marp CLI
+  - Builds `OpenWebRXplus-Tour.md` to HTML
+  - Deploys to GitHub Pages automatically
+
+**Manual Step Required:**
+User must enable GitHub Pages in repository settings:
+1. Go to repository Settings > Pages
+2. Under "Build and deployment", set Source to "GitHub Actions"
+3. Push changes to trigger the workflow
 
 ---
 
